@@ -85,7 +85,7 @@ def delete_auth_cache():
         cursor, keys=redis_client.scan(
             cursor=cursor,
             match=pattern,
-            count=10 
+            count=100 
         )
 
         if keys:

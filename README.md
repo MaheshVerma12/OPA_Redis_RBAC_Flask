@@ -24,9 +24,13 @@ The api endpoints of this project are ->
 
 How to run this project via terminal ->
 (1) Create a virtual environment -> python -m venv venv
+
 (2) Activate venv -> venv/scripts/activate
+
 (3) Install the requirements in the venv -> pip install -r requirements.txt
+
 (4) Install the developer requirements -> pip install -r dev-requirements.txt
+
 (5) Run the app -> python app.py 
-(6) You can test the endpoints in an api client like 
-Postman or Insomnia.
+
+(6) You can test the endpoints in an api client like Postman or Insomnia.
